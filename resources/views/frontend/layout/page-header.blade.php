@@ -1,4 +1,5 @@
-@include('frontend.layout.partials.settings') @include('frontend.layout.pop-up')
+@include('frontend.layout.partials.language_settings') 
+@include('frontend.layout.pop-up')
 <div class="mobile-fix-option"></div>
 <div class="top-header top-header-inverse">
     <div class="custom-container">
@@ -121,7 +122,7 @@
                                     </li>
                                     <!--HOME-->
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="{{url('/')}}">Home</a>
                                    
                                     </li>
                                     <!--HOME-END-->
